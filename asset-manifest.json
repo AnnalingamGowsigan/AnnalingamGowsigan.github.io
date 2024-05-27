@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ef9f43f2.css",
-    "main.js": "/portfolio/static/js/main.0c157d1a.js",
-    "static/media/profile.jpg": "/portfolio/static/media/profile.770616f9ac7377e44d16.jpg",
-    "static/media/about.jpg": "/portfolio/static/media/about.c868bcf69403882b8ba2.jpg",
-    "static/media/Gowsi-Cv.pdf": "/portfolio/static/media/Gowsi-Cv.e83747cf513e0b21a7f1.pdf",
-    "index.html": "/portfolio/index.html",
-    "main.ef9f43f2.css.map": "/portfolio/static/css/main.ef9f43f2.css.map",
-    "main.0c157d1a.js.map": "/portfolio/static/js/main.0c157d1a.js.map"
+    "main.css": "/AnnalingamGowsigan.github.io/static/css/main.6ac74295.css",
+    "main.js": "/AnnalingamGowsigan.github.io/static/js/main.cf88d31e.js",
+    "static/media/profile.jpg": "/AnnalingamGowsigan.github.io/static/media/profile.770616f9ac7377e44d16.jpg",
+    "static/media/about.jpg": "/AnnalingamGowsigan.github.io/static/media/about.c868bcf69403882b8ba2.jpg",
+    "static/media/Gowsi-Cv.pdf": "/AnnalingamGowsigan.github.io/static/media/Gowsi-Cv.e83747cf513e0b21a7f1.pdf",
+    "index.html": "/AnnalingamGowsigan.github.io/index.html",
+    "main.6ac74295.css.map": "/AnnalingamGowsigan.github.io/static/css/main.6ac74295.css.map",
+    "main.cf88d31e.js.map": "/AnnalingamGowsigan.github.io/static/js/main.cf88d31e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef9f43f2.css",
-    "static/js/main.0c157d1a.js"
+    "static/css/main.6ac74295.css",
+    "static/js/main.cf88d31e.js"
   ]
 }
