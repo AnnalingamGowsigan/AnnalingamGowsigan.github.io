@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.336c1e94.css",
-    "main.js": "/portfolio/static/js/main.e6f826fa.js",
+    "main.css": "/portfolio/static/css/main.ef9f43f2.css",
+    "main.js": "/portfolio/static/js/main.0c157d1a.js",
     "static/media/profile.jpg": "/portfolio/static/media/profile.770616f9ac7377e44d16.jpg",
     "static/media/about.jpg": "/portfolio/static/media/about.c868bcf69403882b8ba2.jpg",
     "static/media/Gowsi-Cv.pdf": "/portfolio/static/media/Gowsi-Cv.e83747cf513e0b21a7f1.pdf",
     "index.html": "/portfolio/index.html",
-    "main.336c1e94.css.map": "/portfolio/static/css/main.336c1e94.css.map",
-    "main.e6f826fa.js.map": "/portfolio/static/js/main.e6f826fa.js.map"
+    "main.ef9f43f2.css.map": "/portfolio/static/css/main.ef9f43f2.css.map",
+    "main.0c157d1a.js.map": "/portfolio/static/js/main.0c157d1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.336c1e94.css",
-    "static/js/main.e6f826fa.js"
+    "static/css/main.ef9f43f2.css",
+    "static/js/main.0c157d1a.js"
   ]
 }
