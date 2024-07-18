@@ -20,14 +20,19 @@ const Footer = () => {
             </a>
           </li>
           <li>
+            <a href="#skills" className="footer__link">
+              Skills
+            </a>
+          </li>
+          {/* <li>
             <a href="#testimonials" className="footer__link">
               Testimonials
             </a>
-          </li>
+          </li> */}
         </ul>
 
         <div className="footer__social">
-          <a
+          {/* <a
             href="
           https://www.instagram.com/"
             className="footer__social-link"
@@ -50,6 +55,34 @@ const Footer = () => {
             target="_blank"
           >
             <i class="bx bxl-twitter"></i>
+          </a> */}
+
+          {/* need to delete below link and need to add above accounts */}
+          <a
+            href="https://www.linkedin.com/in/annalingam-gowsigan-87a3991b4/"
+            className="home__social-icon"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a
+            href="https://github.com/AnnalingamGowsigan"
+            className="home__social-icon"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="uil uil-github"></i>
+          </a>
+
+          <a
+            href="https://people.ce.pdn.ac.lk/students/e18/115/"
+            className="home__social-icon"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="uil uil-dribbble"></i>
           </a>
         </div>
 

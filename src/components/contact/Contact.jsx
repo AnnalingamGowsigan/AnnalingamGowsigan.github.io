@@ -5,15 +5,14 @@ import "./contact.css";
 const Contact = () => {
   const form = useRef();
 
+  const Service_ID = process.env.REACT_APP_Service_ID;
+  const Template_ID = process.env.REACT_APP_Template_ID;
+  const Public_Key = process.env.REACT_APP_Public_Key;
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_u9khp8f",
-      "template_gakixnw",
-      form.current,
-      "80JyCqV7PQ16B_hdK"
-    );
+    emailjs.sendForm(Service_ID, Template_ID, form.current, Public_Key);
     e.target.reset();
   };
 
@@ -30,7 +29,7 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">user@gmail.com</span>
+              <span className="contact__card-data">a.gowsigan99@gmail.com</span>
 
               <a
                 href="mailto:examplemail@gmail.com.com"
@@ -41,7 +40,8 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="contact__card">
+            {/* for whatsapp msg */}
+            {/* <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">0771234567</span>
@@ -53,9 +53,10 @@ const Contact = () => {
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
-            </div>
+            </div> */}
 
-            <div className="contact__card">
+            {/* for messenger msg */}
+            {/* <div className="contact__card">
               <i className="bx bxl-messenger contact__card-icon"></i>
               <h3 className="contact__card-title">Messenger</h3>
               <span className="contact__card-data">user.fb123</span>
@@ -64,7 +65,7 @@ const Contact = () => {
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 

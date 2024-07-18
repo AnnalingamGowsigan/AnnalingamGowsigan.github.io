@@ -48,13 +48,21 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
+                <h3 className="qualification__title">
+                  BSc. (Hons) Computer Engineering
+                </h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Faculty of Engineering, University of Peradeniya
+                  <br />
+                  Kandy, Sri Lanka
                 </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>
-                  2011 - Present
+                <span className="qualification__details">
+                  GPA: 3.8/4.0
+                  {/* | 1st Class with Honors */}
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  2019 - Present
                 </div>
               </div>
               <div>
@@ -62,7 +70,6 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
-
             <div className="qualification__data">
               <div></div>
               <div>
@@ -70,49 +77,38 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">
+                  G.C.E. A/L (Physical Science)
+                </h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Meesalai Veerasingam C.C, Jaffna, Sri Lanka
                 </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>
-                  2020 - 2021
+                <span className="qualification__details">
+                  Physics(A), Combined Maths(B), Chemistry(A)
+                  <br />
+                  Z-Score: 1.8421 | Country Rank: 919
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  2016 - 2018
                 </div>
               </div>
             </div>
-
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
+                <h3 className="qualification__title">G.C.E. O/L</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Meesalai Veerasingam C.C, Jaffna, Sri Lanka
                 </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>
-                  2018 - 2020
+                <span className="qualification__details">8As, 1B</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  2006 - 2015
                 </div>
               </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>
-                  2017 - 2018
-                </div>
               </div>
             </div>
           </div>
@@ -126,12 +122,15 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
+                <h3 className="qualification__title">
+                  {" "}
+                  Software Engineering Intern
+                </h3>
                 <span className="qualification__subtitle">
-                  Microsoft - Span
+                  WSO2 - Sri Lanka
                 </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
                   2021 - Present
                 </div>
               </div>
@@ -148,24 +147,34 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">UX Designer</h3>
+                <h3 className="qualification__title">Casual Instructor</h3>
                 <span className="qualification__subtitle">
-                  Apple Inc - Spain
+                  Department of Computer Engineering
+                  <br /> University of Peradeniya
                 </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>
-                  2020 - 2021
+                <span className="qualification__details">
+                  Software Construction,
+                  <br />
+                  Introduction to Programming and Networking
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  03.2023- 07.2023
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Figam - Spain</span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>
-                  2018 - 2020
+                <h3 className="qualification__title">
+                  Member of the Web Consultation Team
+                </h3>
+                <span className="qualification__subtitle">
+                  University of Peradeniya
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  10.2022- Present
                 </div>
               </div>
               <div>

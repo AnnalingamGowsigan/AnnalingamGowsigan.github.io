@@ -1,17 +1,16 @@
 import React from "react";
 
-const Backend = () => {
+const DevOpsAndCloud = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Backend</h3>
+      <h3 className="skills__title">DevOps & Cloud</h3>
 
       <div className="skills__box">
-        {/* here add language */}
         <div className="skills__group">
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Java</h3>
+              <h3 className="skills__name">Docker</h3>
               <span className="skills__level">Fluent</span>
             </div>
           </div>
@@ -19,50 +18,42 @@ const Backend = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Node.js</h3>
-              <span className="skills__level">Familiar</span>
+              <h3 className="skills__name">Docker Compose</h3>
+              <span className="skills__level">Fluent</span>
             </div>
           </div>
 
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">PHP</h3>
-              <span className="skills__level">Familiar</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Python</h3>
+              <h3 className="skills__name">Linux</h3>
               <span className="skills__level">Fluent</span>
             </div>
           </div>
         </div>
 
-        {/* here add framework and libraries */}
         <div className="skills__group">
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Spring Boot</h3>
-              <span className="skills__level">Fluent</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Express</h3>
-              <span className="skills__level">Fluent</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Laravel</h3>
+              <h3 className="skills__name">Kubernetes</h3>
               <span className="skills__level">Familiar</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Amazon EC2</h3>
+              <span className="skills__level">Familiar</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">AWS IoT Core</h3>
+              <span className="skills__level">Fluent</span>
             </div>
           </div>
         </div>
@@ -71,4 +62,4 @@ const Backend = () => {
   );
 };
 
-export default Backend;
+export default DevOpsAndCloud;

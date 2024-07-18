@@ -16,7 +16,8 @@
   cursor: pointer;
 }
 
-.qualification__button:hover {
+.qualification__button:hover,
+.qualification__active {
   color: var(--title-color-dark);
 }
 
@@ -25,13 +26,9 @@
   margin-right: var(--mb-0-25);
 }
 
-.qualification__active {
-  color: var(--title-color-dark);
-}
-
 .qualification__sections {
   display: grid;
-  grid-template-columns: 0.5fr;
+  grid-template-columns: 0.75fr;
   justify-content: center;
 }
 
@@ -57,7 +54,15 @@
 .qualification__subtitle {
   display: inline-block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-0-25);
+}
+.qualification__details {
+  display: inline-block;
+
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-0-25);
+  margin-top: var(--mb-0-5);
+  color: var(--text-color-light);
 }
 
 .qualifiction__calender {
