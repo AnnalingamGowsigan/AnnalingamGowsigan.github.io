@@ -110,33 +110,32 @@ export const projectsData = [
 export const projectsNav = [
   {
     name: "All",
-    // },
-    // {
-    //   name: "Hardware",
-    // },
-    // {
-    //   name: "Software",
-    // },
-    // {
-    //   name: "Research",
-    // },
-    // {
-    //   name: "Web",
-    // },
-    // {
-    //   name: "Networking",
-    // },
-    // {
-    //   name: "Database",
-    // },
-    // {
-    //   name: "IoT",
-    // },
-    // {
-    //   name: "Cloud",
-    // },
-    // {
-    //   name: "Mobile-app",
-    // },
+  },
+  {
+    name: "Hardware",
+  },
+  {
+    name: "Software",
+  },
+  {
+    name: "Research",
+  },
+  {
+    name: "Web",
+  },
+  {
+    name: "Networking",
+  },
+  {
+    name: "Database",
+  },
+  {
+    name: "IoT",
+  },
+  {
+    name: "Cloud",
+  },
+  {
+    name: "Mobile app",
   },
 ];
