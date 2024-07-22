@@ -46,7 +46,7 @@ export const projectsData = [
     id: 6,
     image: QuarantineCentreManagementSystem,
     title: "Quarantine Centre Management System",
-    category: ["Software", "Database", "web"],
+    category: ["Software", "Database", "Web"],
     link: "https://github.com/AnnalingamGowsigan/quarantine-centre-management-system",
   },
   // {

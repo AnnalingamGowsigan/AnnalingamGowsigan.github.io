@@ -21,7 +21,7 @@ const Works = () => {
   }, [item]);
 
   const handleClick = (e, index) => {
-    setItem({ name: projectsNav[index].name.toLowerCase() });
+    setItem({ name: projectsNav[index].name });
     setActive(index);
   };
 
