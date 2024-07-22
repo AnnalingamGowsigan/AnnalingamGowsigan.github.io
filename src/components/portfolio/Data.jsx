@@ -1,5 +1,5 @@
+// import Work from "../../assets/portfolioImages/portfolio_project.jpg";
 import DigitalClock from "../../assets/portfolioImages/DigitalClock.png";
-import Work from "../../assets/portfolioImages/portfolio_project.jpg";
 import MeetingDataVisualizer from "../../assets/portfolioImages/MeetingDataVisualizer.png";
 import TreadmillDashboard from "../../assets/portfolioImages/TreadmillDashboard.jpg";
 import Processor from "../../assets/portfolioImages/processor.png";
@@ -39,14 +39,14 @@ export const projectsData = [
     id: 5,
     image: BabyCare,
     title: "Baby Care",
-    category: ["web"],
+    category: ["Software", "Database", "Mobile-app"],
     link: "https://github.com/AnnalingamGowsigan/BabyCare",
   },
   {
     id: 6,
     image: QuarantineCentreManagementSystem,
     title: "Quarantine Centre Management System",
-    category: ["web"],
+    category: ["Software", "Database", "web"],
     link: "https://github.com/AnnalingamGowsigan/quarantine-centre-management-system",
   },
   // {
@@ -134,5 +134,9 @@ export const projectsNav = [
     // },
     // {
     //   name: "Cloud",
+    // },
+    // {
+    //   name: "Mobile-app",
+    // },
   },
 ];
