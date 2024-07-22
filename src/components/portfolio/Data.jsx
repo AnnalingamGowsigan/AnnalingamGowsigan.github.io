@@ -39,7 +39,7 @@ export const projectsData = [
     id: 5,
     image: BabyCare,
     title: "Baby Care",
-    category: ["Software", "Database", "Mobile-app"],
+    category: ["Software", "Database", "Mobile app"],
     link: "https://github.com/AnnalingamGowsigan/BabyCare",
   },
   {
