@@ -34,7 +34,9 @@
 }
 
 .work__img {
-  width: 295px;
+  /* width: 295px;  */
+  width: 333px;
+  height: 194px;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
 }

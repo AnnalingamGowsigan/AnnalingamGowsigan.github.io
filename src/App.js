@@ -7,9 +7,9 @@ import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Contact from "./components/contact/Contact";
 import Skills from "./components/skills/Skills";
-// import Services from "./components/services/Services";
+import Services from "./components/services/Services";
 import Qualification from "./components/qualification/Qualification";
-// import Work from "./components/work/Work";
+import Portfolio from "./components/portfolio/Portfolio";
 // import Testimonials from "./components/testimonials/Testimonials";
 
 const App = () => {
@@ -20,9 +20,9 @@ const App = () => {
         <Home />
         <About />
         <Skills />
-        {/* <Services /> */}
+        <Services />
         <Qualification />
-        {/* <Work /> */}
+        <Portfolio />
         {/* <Testimonials /> */}
         <Contact />
       </main>

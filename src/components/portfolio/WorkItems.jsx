@@ -4,9 +4,15 @@ const WorkItems = ({ item }) => {
   return (
     <div className="work__card" key={item.id}>
       <img src={item.image} alt={item.title} className="work__img" />
+
       <h3 className="work__title">{item.title}</h3>
-      <a href="#!" className="work__button">
-        Demo <i className="bx bx-right-arrow-alt work__button-icon "></i>
+      <a
+        href={item.link}
+        className="work__button"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View More <i className="bx bx-right-arrow-alt work__button-icon "></i>
       </a>
     </div>
   );
