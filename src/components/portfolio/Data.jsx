@@ -5,6 +5,12 @@ import TreadmillDashboard from "../../assets/portfolioImages/TreadmillDashboard.
 import Processor from "../../assets/portfolioImages/processor.png";
 import BabyCare from "../../assets/portfolioImages/BabyCare.png";
 import QuarantineCentreManagementSystem from "../../assets/portfolioImages/QuarantineCentreManagementSystem.jpeg";
+import SmartInventoryManagementSystem from "../../assets/portfolioImages/SmartInventoryManagementSystem.jpg";
+import CoralProtector from "../../assets/portfolioImages/CoralProtector.png";
+import StockMentor from "../../assets/portfolioImages/StockMentor.jpg";
+import PatientMonitoringSystem from "../../assets/portfolioImages/PatientMonitoringSystem.jpg";
+import VPS from "../../assets/portfolioImages/VPS.png";
+import Ecommerce from "../../assets/portfolioImages/Ecommerce.jpg";
 
 export const projectsData = [
   {
@@ -39,7 +45,7 @@ export const projectsData = [
     id: 5,
     image: BabyCare,
     title: "Baby Care",
-    category: ["Software", "Database", "Mobile app"],
+    category: ["Software", "Database", "Mobile-App"],
     link: "https://github.com/AnnalingamGowsigan/BabyCare",
   },
   {
@@ -49,48 +55,64 @@ export const projectsData = [
     category: ["Software", "Database", "Web"],
     link: "https://github.com/AnnalingamGowsigan/quarantine-centre-management-system",
   },
-  // {
-  //   id: 7,
-  //   image: Work1,
-  //   title: "Smart Inventory Management System",
-  //   category: ["web"],
-  //   link: "https://www.google.com",
-  // },
-  // {
-  //   id: 8,
-  //   image: Work1,
-  //   title: "Patient Monitoring System",
-  //   category: ["web"],
-  //   link: "https://www.google.com",
-  // },
-  // {
-  //   id: 9,
-  //   image: Work1,
-  //   title: "Stock Mentor",
-  //   category: ["web"],
-  //   link: "https://www.google.com",
-  // },
-  // {
-  //   id: 10,
-  //   image: Work1,
-  //   title: "Corals Protector",
-  //   category: ["web"],
-  //   link: "https://www.google.com",
-  // },
-  // {
-  //   id: 11,
-  //   image: Work1,
-  //   title: "VPS",
-  //   category: ["web"],
-  //   link: "https://www.google.com",
-  // },
-  // {
-  //   id: 12,
-  //   image: Work1,
-  //   title: "E-commerce Microservices Application",
-  //   category: ["web"],
-  //   link: "https://www.google.com",
-  // },
+  {
+    id: 7,
+    image: SmartInventoryManagementSystem,
+    title: "Smart Inventory Management System",
+    category: ["Software", "Database", "Web"],
+    link: "https://projects.ce.pdn.ac.lk/co227/e18/Smart-Inventory-Management-System-Group-C/",
+  },
+  {
+    id: 8,
+    image: PatientMonitoringSystem,
+    title: "Patient Monitoring System",
+    category: ["Hardware", "Software", "Web", "Iot"],
+    link: "https://projects.ce.pdn.ac.lk/co326/e18/Patient-monitoring-system/",
+  },
+  {
+    id: 9,
+    image: StockMentor,
+    title: "Stock Mentor",
+    category: ["Software", "Web", "Machine Learning"],
+    link: "https://projects.ce.pdn.ac.lk/6sp/e18/Stock-Mentor/",
+  },
+  {
+    id: 10,
+    image: CoralProtector,
+    title: "Corals Protector",
+    category: [
+      "Software",
+      "Hardware",
+      "Web",
+      "Iot",
+      "Cloud",
+      "Database",
+      "Networking",
+    ],
+    link: "https://projects.ce.pdn.ac.lk/3yp/e18/Corals-Protector/",
+  },
+  {
+    id: 11,
+    image: VPS,
+    title: "Virtual Patient Simulator",
+    category: [
+      "Software",
+      "Web",
+      "Cloud",
+      "Database",
+      "Networking",
+      "Research",
+      "Game Development",
+    ],
+    link: "https://projects.ce.pdn.ac.lk/4yp/e18/Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry/",
+  },
+  {
+    id: 12,
+    image: Ecommerce,
+    title: "E-commerce Application",
+    category: ["Software", "Database", "Cloud"],
+    link: "https://www.google.com",
+  },
   // {
   //   id: 13,
   //   image: Work1,
@@ -130,12 +152,18 @@ export const projectsNav = [
     name: "Database",
   },
   {
-    name: "IoT",
+    name: "Iot",
   },
   {
     name: "Cloud",
   },
   {
-    name: "Mobile app",
+    name: "Mobile App",
+  },
+  {
+    name: "Machine Learning",
+  },
+  {
+    name: "Game Development",
   },
 ];
